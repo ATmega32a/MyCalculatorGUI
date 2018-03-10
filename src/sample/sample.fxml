@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane fx:id="pln" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="fText" alignment="CENTER_RIGHT" layoutX="41.0" layoutY="16.0" prefHeight="28.0" prefWidth="315.0" />
+      <Button fx:id="btn7" layoutX="42.0" layoutY="69.0" mnemonicParsing="false" onAction="#onClickSeven" prefHeight="70.0" prefWidth="70.0" text="7">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" layoutX="123.0" layoutY="69.0" mnemonicParsing="false" onAction="#onClickEight" prefHeight="70.0" prefWidth="70.0" text="8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" layoutX="203.0" layoutY="69.0" mnemonicParsing="false" onAction="#onClickNine" prefHeight="70.0" prefWidth="70.0" text="9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPlus" layoutX="285.0" layoutY="69.0" mnemonicParsing="false" onAction="#onClickPlus" prefHeight="70.0" prefWidth="70.0" text="+">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="42.0" layoutY="154.0" mnemonicParsing="false" onAction="#onClickFour" prefHeight="70.0" prefWidth="70.0" text="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMinus" layoutX="285.0" layoutY="154.0" mnemonicParsing="false" onAction="#onClickMinus" prefHeight="70.0" prefWidth="70.0" text="-">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="203.0" layoutY="154.0" mnemonicParsing="false" onAction="#onClickSix" prefHeight="70.0" prefWidth="70.0" text="6">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="123.0" layoutY="154.0" mnemonicParsing="false" onAction="#onClickFive" prefHeight="70.0" prefWidth="70.0" text="5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="42.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClickOne" prefHeight="70.0" prefWidth="70.0" text="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDiv" layoutX="285.0" layoutY="325.0" mnemonicParsing="false" onAction="#onClickDiv" prefHeight="70.0" prefWidth="70.0" text="/">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMul" layoutX="285.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClickMul" prefHeight="70.0" prefWidth="70.0" text="*">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="203.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClickThree" prefHeight="70.0" prefWidth="70.0" text="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" layoutX="42.0" layoutY="325.0" mnemonicParsing="false" onAction="#onClickZero" prefHeight="70.0" prefWidth="70.0" text="0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="123.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClickTwo" prefHeight="70.0" prefWidth="70.0" text="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEqual" layoutX="203.0" layoutY="325.0" mnemonicParsing="false" onAction="#onClickEqual" prefHeight="70.0" prefWidth="70.0" text="=">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="123.0" layoutY="325.0" mnemonicParsing="false" onAction="#onClickSign" prefHeight="70.0" prefWidth="70.0" text="+/-">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPoint" layoutX="123.0" layoutY="407.0" mnemonicParsing="false" onAction="#onClickPoint" prefHeight="70.0" prefWidth="70.0" text=",">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClear" layoutX="42.0" layoutY="407.0" mnemonicParsing="false" onAction="#onClickClear" prefHeight="70.0" prefWidth="70.0" text="C">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBackSpace" layoutX="285.0" layoutY="407.0" mnemonicParsing="false" onAction="#onClickBackSpace" prefHeight="70.0" prefWidth="70.0" text="&lt;--">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPercent" layoutX="203.0" layoutY="407.0" mnemonicParsing="false" onAction="#onClickPercent" prefHeight="70.0" prefWidth="70.0" text="\%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="tLabel" layoutX="39.0" layoutY="44.0" prefHeight="22.0" prefWidth="315.0" />
+   </children>
+</Pane>
